@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.center{
+   max-width: 1100px;
+   padding: 0 2%;
+   margin: 0 auto;
+}
+
+.clear{clear: both}
+
+header{
+   background: #2f477a;
+   padding: 8px 0;
+}
+
+div.logo{
+   float: left;
+   color: white;
+}
+
+.logo > a{
+   font-size: 29px;
+   font-weight: normal;
+   text-decoration: none;
+   color: white;
+   
+}
+
+.form-login{
+   float: right;
+}
+
+.form-login .form-element{
+   display: inline-block;
+   margin-right: 15px;
+}
+
+.form-element > p{
+   color: white;
+   font-size: 14px;
+}
+.form-element input[type=email],
+.form-element input[type=password]{
+  margin-top: 4px;
+ border: 0;
+ height: 22px;
+ padding-left: 3px;
+}
+
+.form-element input[type=submit]{
+  cursor: pointer;
+  border: 0;
+  background: #4060a5;
+  border: 2px solid #2d4c8f;
+  color: white;
+  padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover{
+  background: #2f477a;
+}
+
+section.main{
+  background: linear-gradient(rgb(255, 255, 255), #d3d8e8);
+  padding: 40px 0;
+}
+
+.image-mapa{
+  float: left;
+  width: 60%;
+    
+}
+
+.image-mapa img{
+  max-width: 100%;
+}
+
+.image-mapa h2{
+  max-width: 100%;
+  color: #0e385f;
+  font-size: 20px;
+  width: 90%;
+  margin-bottom: 30px;
+
+}
+
+.abrir-conta{
+  width: 40%;
+  float: left;
+}
+
+.abrir-conta h2{
+  font-size: 35px;
+  color: black;
+}
+
+.abrir-conta h3{
+  font-size: 19px;
+  color: rgb(34, 30, 30);
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+form.criar-conta{
+  margin-top: 10px;
+}
+
+.w50{
+  padding: 0 5px;
+  width: 50%;
+  float: left;
+}
+
+.w100{
+  padding: 0 5px;
+  width: 100%;
+  float: left;
+}
+
+form.criar-conta input{
+  width: 100%;
+  margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+  height: 40px;
+  border: 1px solid #737373;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+ 
+form.criar-conta input[type=submit]{
+  height: 35px;
+  background: linear-gradient(#67ae55, #578843);
+  color: white;
+  cursor: pointer;
+  border: 0;
+  max-width: 200px;
+  font-size: 15px;
+  margin-left: -4px;
+  border-radius: 5px;
+}
+
+form .w100 h2{
+  margin-top: 10px;
+  color: #1d2129;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+form select.nascimento{
+  float: left;
+  margin-top: 5px;
+  height: 30px;
+  border-color: #737373;
+  border-radius: 0;
+}
+
+.info{
+margin-left: 200px;
+display: inline block;
+}
+
+.info a{
+  color: #365899;
+  text-decoration: none;
+}
+
+.info a:hover{
+  text-decoration: underline;
+}
+
+div.termos p{
+  color: #737373;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+ 
+div.termos a{
+  color: #365899;
+  text-decoration: none;
+}
+div.termos a:hover{
+  text-decoration: underline;
+}
+
+div.criar-pagina p{
+  margin-top: 60px;
+  padding-top: 15px;
+  color: #737373;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.criar-pagina a{
+  color: #365899;
+  text-decoration: none;
+}
+
+div.criar-pagina a:hover{
+  text-decoration: underline;
+}
+
+.input-radio{
+  margin: 8px 10px;
+  float: left;
+}
+
+.input-radio h2{
+  display: inline-block; 
+}
+
+.input-radio input[type=radio]{
+  width: auto !important;
+  display: inline-block;
+}
+
+section.linguas{
+  padding: 30px;
+  background: white;
+}
+
+section.linguas a{
+  padding-right: 15px;
+  font-size: 14px;
+  color: #365899;
+  text-decoration: none;
+}
+
+section.linguas a:hover{
+  text-decoration: underline;
+}
+
+section.linguas a.selected-lingua{
+  color: #737373;
+  cursor: pointer;
+}
+
+section.linguas .center{
+  border-bottom: 1px solid #ccc;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+}
+
+
+footer{
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+}
+
+footer h4{
+  font-size: 11px;
+  color: #737373;
+  padding-left: 4px;
+ }
+
+section.linguas .links{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+  .logo{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  form.form-login{
+    display: inline-block;
+    margin-top: 17px;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .form-login .form-element{
+    display: block;
+    margin: 4px 0;
+  }
+   
+  .form-element > p{
+    color: white;
+    font-size: 14px;
+  }
+  .form-element input[type=email],
+  .form-element input[type=password]{
+    margin-top: 4px;
+    border: 0;
+    height: 22px;
+    padding-left: 3px;
+    width: 100%;
+    max-width: 300px;
+  }
+  .image-mapa{
+    display: none;
+  }
+  .abrir-conta{
+    width: 100%;
+  }
+ }
